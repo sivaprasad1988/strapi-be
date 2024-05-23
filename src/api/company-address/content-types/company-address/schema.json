@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "company_addresses",
+  "info": {
+    "singularName": "company-address",
+    "pluralName": "company-addresses",
+    "displayName": "Company Address"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyname": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "plz": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

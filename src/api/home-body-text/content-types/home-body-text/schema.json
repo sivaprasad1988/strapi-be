@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_body_texts",
+  "info": {
+    "singularName": "home-body-text",
+    "pluralName": "home-body-texts",
+    "displayName": "Home-body-Text"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "private": true
+    },
+    "BodyText": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
