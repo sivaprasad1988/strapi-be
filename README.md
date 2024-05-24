@@ -32,7 +32,7 @@ npm run build
 yarn build
 ```
 
-## ⚙️ Specify the import file
+## ✅ Specify the import file
 
 To import data into a Strapi instance use the strapi import command in the project root directory. Specify the file to be imported using the -f or --file option. The filename, extension, and path are required. If the file is encrypted, you are prompted for the encryption key before the import starts.
 
