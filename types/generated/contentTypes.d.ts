@@ -909,6 +909,7 @@ export interface ApiProjectListProjectList extends Schema.CollectionType {
     >;
     images: Attribute.Media;
     slug: Attribute.String & Attribute.Required;
+    content: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
